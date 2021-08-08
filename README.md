@@ -1,1 +1,0 @@
-# Quad-Manual-1

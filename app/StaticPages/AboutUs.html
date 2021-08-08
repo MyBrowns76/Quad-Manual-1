@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <meta name="description" content="About us details for Quad Manual- 725 Fairyway blvd, Columbus Ohio, 43206. Phone +614 3338888">
+   
+        <!-- CSS reset -->
+    <link rel="stylesheet" href="css-reset.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/share?selection.family=Roboto:ital@1https://fonts.google.com/share?selection.family=Playfair%20Display:ital@1" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b152054db9.js" crossorigin="anonymous"></script>
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 20px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgba(128, 128, 128, 0.548); 
+          border-radius: 10px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: black; 
+        }
+        </style>
+   
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/QuadLogo.png" alt="Quad Logo for manual" width="90px">
+                </a>
+            </div>
+            <nav>
+                <div class="navbutton">
+                    <a href="about-us.html">About</a>
+   
+                <div class="dropdown">
+                    <div class="navbutton">
+                        <a href="about-us.html">Our Story</a>
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="navbutton">
+                    <a href="supplies.html">Supplies</a>
+
+                    <div class="dropdown">
+                        <div class="navbutton">
+                            <a href="supplies.html">Personal Items</a>
+                            
+                        
+                        </div>
+                    
+                        </div>
+                        
+                    
+                </div>
+
+                <div class="navbutton">
+                    <a href="disclaimer.html">Disclaimer</a>
+                    <div class="dropdown">
+                        <div class="navbutton">
+                            <a href="disclaimer.html">Disclaimer Info</a>
+                        </div>
+                    </div> 
+                </div>
+                
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="main2">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloremque nostrum autem odio ab itaque quidem perferendis voluptatem eius sed beatae, ex dicta sequi aperiam consequatur omnis laborum exercitationem molestiae facilis fugiat iste a ipsa! Corrupti enim ratione quaerat quibusdam alias modi nesciunt delectus accusantium at quos? Ut, saepe tenetur!</p>
+
+        </div>
+        <main>
+ 
+        </main>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      
+        
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+                
+    <footer class="back-to-top">
+        <p>Quad Manual, Ohio - Copyright 2021©<a href="#header"></a> </p> 
+
+        <hr width="300px">
+        <div class="contact" id="contact">
+            <div class="contact__header">
+              <div class="contact-links">
+        
+        <div class="facebook__icon">
+            <li style="list-style-type: none;" class="facebook__link"><a href="mailto:Eddiecsworld76@gmail.com"><img src="images/outline_facebook_black_24dp.png" alt="" width="40px" height="40px"></a></li>
+          </div>
+          <div class="linkedin__icon">
+            <li style="list-style-type: none;" class="linkedin__link"><a href="https://www.linkedin.com/in/eduardo-colon-435812206/" target="_blank"> <img src="images/icon2.png" alt=""  width="40px" height="40px"></a></li>
+            
+          </div>   
+        
+        
+        <div class="gmail__icon">
+          <li style="list-style-type: none;" class="gmail__link"><a href="mailto:Eddiecsworld76@gmail.com"><img src="images/outline_mail_outline_black_24dp.png" alt="" width="40px" height="40px"></a></li>
+        </div>
+    </footer>
+</body>
+</html>
