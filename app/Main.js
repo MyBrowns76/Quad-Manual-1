@@ -130,10 +130,14 @@ function Main() {
             timeout={330}
             in={state.isSearchOpen}
             classNames="search-overlay"
-            unmountOnExit  >   
+            unmountOnExit>
+              <div className="search-overlay"> 
+            <Suspense fallback="">  
             <Search />
+            </Suspense>
+            </div>
           </CSSTransition>
-          <Chat />
+          <Suspense fallback="">{state.loggedIn && <Chat />} </Suspense>
           <Footer />
         </BrowserRouter>
       </DispatchContext.Provider>
